@@ -1,0 +1,92 @@
+/* App.css */
+body {
+  background-color: #e9dbf1;  
+  margin: 0;  
+  padding: 0;  
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search {
+  padding: 25px;   
+  margin:  auto;   
+  width: 300%;   
+  font-size: 56px;   
+  height: 80px;
+}
+
+.name {
+  font-size: 80px;   
+  text-align: center;
+}
+
+.email {
+  font-size: 80px;  
+}
+
+.age {
+  font-size: 80px;   
+}
+
+.photos {
+  font-size: 70px;
+}
+
+.Details {
+  font-size: 80px;
+}
+
+.GoogleDocs a {
+  font-size: 80px;  
+  color: #240222;  
+  text-decoration: none;  
+}
+
+.Details a:hover,
+.GoogleDocs a:hover {
+  text-decoration: underline;  
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;  
+}
+
+th, td {
+  border: 1px solid #0a0a0a;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  color: aliceblue;
+  background-color: #328288;
+}
+
+/* .user-photo {
+  max-width: 190px;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  align-items: center;
+} */
+
